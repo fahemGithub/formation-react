@@ -1,8 +1,16 @@
 import React from 'react'
 
+function Welcome(){
+    const name = "malek";
+    return <h1>{name}</h1>
+}
+
 const Sectiontwo = () => {
   return (
-    <div>Sectiontwo</div>
+    <React.Fragment>
+        <div>Sectiontwo</div>
+        <Welcome />
+    </React.Fragment>
   )
 }
 
