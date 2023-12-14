@@ -1,7 +1,6 @@
-import React from "react";
-const Section = () => {
+const Section = (props) => {
     return (
-    <h1>Section</h1>
+    <h1>Section - {props.name}</h1>
     )
 }
 

@@ -1,15 +1,15 @@
 import React from 'react'
-
+/*
 function Welcome(){
     const name = "malek";
     return <h1>{name}</h1>
 }
-
-const Sectiontwo = () => {
+*/
+const Sectiontwo = ({nameTwo}) => {
   return (
     <React.Fragment>
-        <div>Sectiontwo</div>
-        <Welcome />
+        <div>Sectiontwo - {nameTwo}</div>
+        {nameTwo == "mohamed" && <div>Bonjour {nameTwo}</div>}
     </React.Fragment>
   )
 }
