@@ -1,12 +1,14 @@
 import "./App.css";
 import Counter from "./components/Counter";
 import Form from "./components/Contact-form";
+import LinkData from "./components/LinkData";
 
 function App() {
     const name = "mohamed";
     return (
         <div className='App'>
             <Form />
+            <LinkData />
         </div>
     );
 }
