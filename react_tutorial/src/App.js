@@ -2,6 +2,7 @@ import "./App.css";
 import Counter from "./components/Counter";
 import Form from "./components/Contact-form";
 import LinkData from "./components/LinkData";
+import ClearHook from "./components/ClearHook";
 
 function App() {
     const name = "mohamed";
@@ -9,6 +10,7 @@ function App() {
         <div className='App'>
             <Form />
             <LinkData />
+            <ClearHook />
         </div>
     );
 }
